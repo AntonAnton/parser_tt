@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def get_page_by_url(url):
+    ???????
     response = requests.get(url)
     return response.text
 

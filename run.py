@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 
 def get_page_by_url(url):
     //sdsada
+    //sdsada
+    //sdsada
     response = requests.get(url)
     return response.text
 

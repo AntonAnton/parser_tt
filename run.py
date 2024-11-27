@@ -4,9 +4,6 @@ from bs4 import BeautifulSoup
 
 def get_page_by_url(url):
     //sdsada
-    response = requests.get(url)
-    return response.text
-
 
 def get_products_paths_from_catalog(catalog_url):
     page = get_page_by_url(catalog_url)
